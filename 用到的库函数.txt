@@ -1,0 +1,54 @@
+随机数
+    srand()
+
+时间操作
+    gettimeofday()
+    
+字符串
+    strstr()
+    strcmp()
+    
+posix
+    pthread_mutex_init()
+    pthread_mutex_t
+    
+内存
+    memcpy()
+    memset()
+    
+文件
+    getcwd()
+	fcntl()
+
+进程
+	exit()
+	getpid()			unistd.h
+
+系统配置
+	sysconf()
+
+I/O
+	stderr()
+	fprintf()
+	snprintf()
+
+	va_start()
+	vsnprintf()
+	va_end()
+
+log
+	openlog()		syslog.h
+
+信号
+	signal() 
+		params 
+			1: SIGUP,SIGKILL,SIGPIPE...	
+			2: SIG_ERR | SIG_DFL | SIG_IGN
+	
+	struct sigaction
+	sigemtyset()
+	sigaction()
+
+事件
+	epoll_wait()
+	epoll_ctl()
